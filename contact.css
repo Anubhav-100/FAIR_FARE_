@@ -1,0 +1,82 @@
+.contact-section {
+    padding: 4rem 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    background-color: #121212;
+    line-height: 1.9;
+    font-size: 1.3rem;  /* increased base font size */
+}
+
+.profile-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background: #1e1e1e;
+    margin-bottom: 3rem;
+    padding: 2.5rem;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    gap: 2.5rem;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #00c6ff;
+    flex-shrink: 0;
+}
+
+.profile-details h3 {
+    margin: 0;
+    font-size: 2.5rem;   /* significantly bigger */
+    color: #00c6ff;
+    font-weight: 800;
+}
+
+.role {
+    font-style: italic;
+    color: #ccc;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+a {
+    color: #4fd1c5;
+    font-weight: 600;
+    font-size: 1.4rem;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f97316;
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons :hover {
+    transform: scale(2.2);
+}

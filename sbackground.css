@@ -1,0 +1,24 @@
+/* Full app background */
+.stApp {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ),
+    url("https://img.lovepik.com/bg/20240308/The-digital-solution-for-hailing-taxis-A-3D-yellow-taxi_3928557_wh300.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 0rem !important;
+}
+
+/* Header background */
+[data-testid="stHeader"] {
+    background: rgba(0, 0, 0, 0);              /* Semi-transparent dark background */
+    backdrop-filter: blur(0px);                   /* Blurred glass effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);    /* Soft shadow */
+    max-width: 100%;
+}
+
+
+
+
