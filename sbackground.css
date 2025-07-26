@@ -1,8 +1,8 @@
 /* Full app background */
 .stApp {
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
     ),
     url("https://img.lovepik.com/bg/20240308/The-digital-solution-for-hailing-taxis-A-3D-yellow-taxi_3928557_wh300.jpg");
     background-size: cover;

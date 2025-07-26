@@ -3,7 +3,7 @@
     margin: 0rem !important; /* Remove all margins */
     width: 100% !important; /* Full width */
     max-width: 80% !important; /* Ensure no max-width limits */
-    padding-top: 0rem !important;  /* You can set to 0rem to fully remove */
+    padding-top: 1rem !important;  /* You can set to 0rem to fully remove */
     padding-left: 1rem !important; /* Optional: reduce left padding */
     padding-right: 1rem !important; /* Optional: reduce right padding */
 }

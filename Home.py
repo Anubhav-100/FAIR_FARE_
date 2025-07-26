@@ -8,25 +8,25 @@ def load_data():
     return df
 
 def show():
-    st.markdown('<h1 class="fair-fare-title">🛺 Fair_Fare Estimator</h1>', unsafe_allow_html=True)
+    st.markdown('<h1><img src="https://i.postimg.cc/rmdgtwQT/Screenshot-2025-07-24-193639-removebg-preview.png" alt="heading" class="img-head"></h1>', unsafe_allow_html=True)
 
     df = load_data()
     base_locations = sorted(df['pickup'].unique())
 
-    locations_with_placeholder = ["📍 Select Pickup Point"] + base_locations
+    locations_with_placeholder = ["Select Pickup Point"] + base_locations
 
     with st.container():
         col1, col2 = st.columns([2, 2]) 
 
         with col1:
-            pickup = st.selectbox("📍 Select Pickup Point", locations_with_placeholder, index=0, key="pickup")
+            pickup = st.selectbox("Select Pickup Point", locations_with_placeholder, index=0, key="pickup")
 
         with col2:
             # Always show destination box with placeholder
-            destination_options = ["🏁 Select Destination Point"] + (
-                [loc for loc in base_locations if loc != pickup] if pickup != "📍 Select Pickup Point" else []
+            destination_options = ["Select Destination Point"] + (
+                [loc for loc in base_locations if loc != pickup] if pickup != "Select Pickup Point" else []
             )
-            destination = st.selectbox("🏁 Select Destination Point", destination_options, index=0, key="destination")
+            destination = st.selectbox("Select Destination Point", destination_options, index=0, key="destination")
 
         st.markdown("<h2>🚗 Choose Cab Type</h2>", unsafe_allow_html=True)
         cab_type_options = ["Hatchback — 🚗", "Sedan — 🚘", "SUV — 🚙"]
@@ -40,7 +40,7 @@ def show():
             if st.button("Compare Fare", use_container_width=False):
 
                 # Validation
-                if pickup == "📍 Select Pickup Point" or destination == "🏁 Select Destination Point":
+                if pickup == "Select Pickup Point" or destination == "Select Destination Point":
                     st.warning("⚠️ Please select both pickup and destination.")
                     return
 

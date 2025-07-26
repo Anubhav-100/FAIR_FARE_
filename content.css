@@ -11,8 +11,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1 {
     font-size: 4.4rem !important;
-    margin-top: 0;
-    padding-top: 0;
+    margin-top: 1rem;
+    padding-top: 1rem;
 }
 
 h2 {
@@ -128,12 +128,17 @@ p {
 /* Select Dropdown Field */
 .stSelectbox div[data-baseweb="select"] {
     font-size: 22px !important;
-    padding: 10px !important;
-    min-height: 50px !important;
+    padding: 20px !important;
+    min-height:10px !important;
     line-height: 1 !important;
     background-color: #fffb04f3 !important;
     border-radius: 20px !important;
     color: white !important;
     border: 1px solid #aaa !important;
     box-shadow: 0 0 5px rgba(42, 4, 207, 0.968);
+}
+
+.img-head {
+    height: 7.5rem;
+    width:  40rem;
 }

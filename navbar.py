@@ -4,6 +4,9 @@ def render_navbar():
     return textwrap.dedent("""
     <header class="header">
         <nav class="navbar">
+            <div class="logo">
+                <img src="https://i.postimg.cc/jSj1dZHG/Screenshot-2025-07-24-193200-removebg-preview.png" alt="Logo" class="logo-img">
+            </div>
             <input type="checkbox" id="menu-toggle" style="display: none;">
             <label class="hamburger" for="menu-toggle">
                 <span></span>

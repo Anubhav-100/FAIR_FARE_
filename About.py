@@ -8,7 +8,7 @@ def show():
 
     # ABOUT CONTENT
     about_html = """
-    <div style="padding: 2.5rem; background-color: rgba(255,255,255,0.92); border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
+    <div style="padding: 2.5rem; background-color: rgba(255,255,255,0.52); border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
     
         <h1 style="color: #222222; font-size: 3rem; font-weight: 800; margin-bottom: 1.5rem;">📘 About This App</h1>
     

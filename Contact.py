@@ -13,10 +13,10 @@ def show():
     {custom_css}
     <div class="contact-section">
         <div class="profile-row">
-            <img src="https://i.postimg.cc/Qt5b2ycb/IMG-20250724-090940.jpg" alt="Anubhav Photo" class="profile-img">
+            <img src="https://i.postimg.cc/vmn34Vy9/mee-1.jpg" alt="Anubhav Photo" class="profile-img">
             <div class="profile-details">
                 <h3>Anubhav Kumar Kesharwani</h3>
-                <p class="role">Frontend Developer | UI Integrator</p>
+                <p class="role">Frontend Developer | UI/UX Integrator</p>
                 <p>Anubhav led the frontend design and backend implementation. He ensured smooth navigation, interactive UI, and responsive layouts for all pages.</p>
                 <div class="contact-info">
                     <p>📞 [+91-6387399625]</p>
